@@ -437,31 +437,45 @@ input {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
+    text-align: justify;
+    border: 1px solid #e5eaee;
+    
   }
   .service-item {
     display: flex;
-
-    width: 300px;
-    margin: 20px;
+    margin: 0px 15px;
+    gap:10px;
     text-align: center;
+    justify-content: space-between;
   }
   
   .service-item i {
     font-size: 48px;
     margin-bottom: 20px;
-    color: #333;
+    color: black;
   }
   
   .service-item h3 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: black;
+    font-weight: 700;
   }
   
   .service-item p {
     font-size: 16px;
     line-height: 1.5;
-    color: #666;
+    color: black;
+      
+  }
+  .service-text{
+    text-align: left;
+   
+    margin-bottom: 5px;
+    color: #071c1f;
+  }
+  .service-icon{
+    padding: 10px 0px;
   }
   
 
@@ -491,7 +505,7 @@ footer {
 }
 
 .footer-top-area {
-    padding-top: 92px;
+    padding-top: 5rem;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -531,9 +545,17 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
 }
+.footer-logo{
 
+    justify-content: center;
+}
 
-
+.image_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
 
 
 
